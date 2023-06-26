@@ -521,3 +521,425 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.fixed {
+  position: fixed;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-mt-4 {
+  margin-top: -0.25rem;
+}
+
+.-mt-9 {
+  margin-top: -0.5625rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-55 {
+  height: 3.4375rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-screen-1\.5lg {
+  max-width: 1112px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-y-38 {
+  row-gap: 2.375rem;
+}
+
+.gap-x-20 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.gap-x-24 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-x-26 {
+  -moz-column-gap: 1.625rem;
+       column-gap: 1.625rem;
+}
+
+.gap-x-28 {
+  -moz-column-gap: 1.75rem;
+       column-gap: 1.75rem;
+}
+
+.gap-x-30 {
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+
+.gap-x-32 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.border-1 {
+  border-width: 0.0625rem;
+}
+
+.border-2 {
+  border-width: 0.125rem;
+}
+
+.border-very-light-gray {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 98% / var(--tw-border-opacity));
+}
+
+.bg-very-dark-violet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(270 9% 17% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-mobile-nav {
+  background-image: url('/images/bg-pattern-mobile-nav.svg');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-24 {
+  padding: 1.5rem;
+}
+
+.px-24 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pb-19 {
+  padding-bottom: 1.1875rem;
+}
+
+.pt-1 {
+  padding-top: 0.0625rem;
+}
+
+.pt-24 {
+  padding-top: 1.5rem;
+}
+
+.pt-46 {
+  padding-top: 2.875rem;
+}
+
+.text-18 {
+  font-size: 1.125rem;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-27 {
+  letter-spacing: 0.16875rem;
+}
+
+.text-very-light-gray {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 98% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+@media (min-width: 768px) {
+  .md\:mt-0 {
+    margin-top: 0rem;
+  }
+
+  .md\:ml-8 {
+    margin-left: 0.5rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-48 {
+    height: 3rem;
+  }
+
+  .md\:h-44 {
+    height: 2.75rem;
+  }
+
+  .md\:h-42 {
+    height: 2.625rem;
+  }
+
+  .md\:h-40 {
+    height: 2.5rem;
+  }
+
+  .md\:h-38 {
+    height: 2.375rem;
+  }
+
+  .md\:shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .md\:border-dark-violet {
+    --tw-border-opacity: 1;
+    border-color: hsl(256 26% 20% / var(--tw-border-opacity));
+  }
+
+  .md\:px-0 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:px-18 {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:px-22 {
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+  }
+
+  .md\:px-26 {
+    padding-left: 1.625rem;
+    padding-right: 1.625rem;
+  }
+
+  .md\:px-27 {
+    padding-left: 1.6875rem;
+    padding-right: 1.6875rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .md\:px-30 {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  .md\:pt-26 {
+    padding-top: 1.625rem;
+  }
+
+  .md\:pt-2 {
+    padding-top: 0.125rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 1.25rem;
+  }
+
+  .md\:pr-4 {
+    padding-right: 0.25rem;
+  }
+
+  .md\:pl-8 {
+    padding-left: 0.5rem;
+  }
+
+  .md\:pl-2 {
+    padding-left: 0.125rem;
+  }
+
+  .md\:pl-3 {
+    padding-left: 0.1875rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:text-15 {
+    font-size: 0.9375rem;
+  }
+
+  .md\:text-12 {
+    font-size: 0.75rem;
+  }
+
+  .md\:text-11 {
+    font-size: 0.6875rem;
+  }
+
+  .md\:text-14 {
+    font-size: 0.875rem;
+  }
+
+  .md\:text-13 {
+    font-size: 0.8125rem;
+  }
+
+  .md\:tracking-20 {
+    letter-spacing: 0.125rem;
+  }
+
+  .md\:tracking-18 {
+    letter-spacing: 0.1125rem;
+  }
+
+  .md\:tracking-16 {
+    letter-spacing: 0.1rem;
+  }
+
+  .md\:tracking-17 {
+    letter-spacing: 0.10625000000000001rem;
+  }
+
+  .md\:tracking-14 {
+    letter-spacing: 0.08750000000000001rem;
+  }
+
+  .md\:text-dark-grayish-violet {
+    --tw-text-opacity: 1;
+    color: hsl(273 4% 51% / var(--tw-text-opacity));
+  }
+
+  .md\:text-dark-violet {
+    --tw-text-opacity: 1;
+    color: hsl(256 26% 20% / var(--tw-text-opacity));
+  }
+
+  .md\:first-of-type\:pr-8:first-of-type {
+    padding-right: 0.5rem;
+  }
+
+  .md\:first-of-type\:pr-4:first-of-type {
+    padding-right: 0.25rem;
+  }
+
+  .md\:last-of-type\:pr-4:last-of-type {
+    padding-right: 0.25rem;
+  }
+
+  .md\:last-of-type\:pr-8:last-of-type {
+    padding-right: 0.5rem;
+  }
+
+  .md\:only-of-type\:pr-4:only-of-type {
+    padding-right: 0.25rem;
+  }
+
+  .md\:only-of-type\:pr-8:only-of-type {
+    padding-right: 0.5rem;
+  }
+
+  .group:first-of-type .md\:group-first-of-type\:pr-4 {
+    padding-right: 0.25rem;
+  }
+}
+
+@media (min-width: 1112px) {
+  .\31\.5lg\:ml-auto {
+    margin-left: auto;
+  }
+
+  .\31\.5lg\:mr-auto {
+    margin-right: auto;
+  }
+
+  .\31\.5lg\:px-0 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}

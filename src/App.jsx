@@ -1,5 +1,7 @@
+import InsureLanding from "./pages/InsureLanding";
+
 function App() {
-  return <>Insure landing page</>;
+  return <InsureLanding />;
 }
 
 export default App;

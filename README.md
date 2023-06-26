@@ -39,6 +39,7 @@ Users should be able to:
 ## My process
 
 - 1.Prepare project (Download assets, Install Vite & TailwindCss, Initialize git, README.md)
+- 2.Create Header(Logo, Menu)
 
 ### Work Time
 
@@ -48,6 +49,7 @@ Users should be able to:
 
 - [React](https:react.dev)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://framer.com/motion)
 
 ### What I learned
 
