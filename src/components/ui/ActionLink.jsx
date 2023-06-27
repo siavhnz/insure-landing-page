@@ -14,8 +14,18 @@ const ActionLink = ({ children, size, theme }) => {
   }
 
   //theme
-  const white = ["text-very-light-gray", "border-very-light-gray"];
-  const violet = ["border-dark-violet", "text-dark-violet"];
+  const white = [
+    "text-very-light-gray transition-all duration-700",
+    "border-very-light-gray",
+    "hover:text-dark-violet",
+    "hover:bg-very-light-gray",
+  ];
+  const violet = [
+    "border-dark-violet transition-all duration-700",
+    "text-dark-violet",
+    "hover:bg-dark-violet",
+    "hover:text-very-light-gray",
+  ];
   if (theme === "white") {
     themeStyles = white.join(" ");
   } else if (theme === "violet") {

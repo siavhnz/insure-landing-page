@@ -15,16 +15,32 @@ const Footer = () => {
             <Logo />
             <div className="flex gap-x-15">
               <a href="#" aria-label="go to our facebook">
-                <Facebook aria-hidden={true} focusable={false} />
+                <Facebook
+                  aria-hidden={true}
+                  focusable={false}
+                  className="text-dark-grayish-violet transition-all duration-700 hover:text-very-dark-violet"
+                />
               </a>
               <a href="#" aria-label="go to our twitter">
-                <Twitter aria-hidden={true} focusable={false} />
+                <Twitter
+                  aria-hidden={true}
+                  focusable={false}
+                  className="text-dark-grayish-violet transition-all duration-700 hover:text-very-dark-violet"
+                />
               </a>
               <a href="#" aria-label="go to our pinterest">
-                <Pinterest aria-hidden={true} focusable={false} />
+                <Pinterest
+                  aria-hidden={true}
+                  focusable={false}
+                  className="text-dark-grayish-violet transition-all duration-700 hover:text-very-dark-violet"
+                />
               </a>
               <a href="#" aria-label="go to our instagram">
-                <Instagram aria-hidden={true} focusable={false} />
+                <Instagram
+                  aria-hidden={true}
+                  focusable={false}
+                  className="text-dark-grayish-violet transition-all duration-700 hover:text-very-dark-violet"
+                />
               </a>
             </div>
           </div>
