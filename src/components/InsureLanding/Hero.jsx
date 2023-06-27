@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="w-screen max-w-screen-2xl md:col-span-full md:row-start-1 md:row-end-3 md:grid md:grid-cols-2 xl:ml-auto xl:mr-auto">
         <div className="z-10 md:col-start-2 md:bg-desktop-intor-right md:bg-[top_-5rem_right_-3rem]  md:bg-no-repeat xl:bg-[top_-5.25rem_right] 2xl:bg-[left_36%_top_-6.25rem]"></div>
       </div>
-      <div className="max-w-screen-1.5lg md:col-span-1 md:col-start-2 md:row-span-2 md:row-start-2 md:grid md:grid-cols-2 md:grid-rows-[auto_9.75rem] md:px-16 1.5lg:ml-auto 1.5lg:mr-auto xl:px-0">
+      <div className="max-w-screen-1.5lg md:col-span-1 md:col-start-2 md:row-span-2 md:row-start-2 md:grid md:grid-cols-2 md:grid-rows-[auto_9.75rem] md:px-24 1.5lg:ml-auto 1.5lg:mr-auto xl:px-0">
         <div className="md:col-start-2 md:col-end-3 md:row-span-full md:pl-14">
           <picture className="">
             <source
