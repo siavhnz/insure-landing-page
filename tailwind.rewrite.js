@@ -11,19 +11,19 @@ export const values = {
   },
 
   margin: {
-    ...createProps(0, 640, 0.0625, "rem"),
+    ...createProps(0, 650, 0.0625, "rem"),
   },
 
   width: {
-    ...createProps(0, 640, 0.0625, "rem"),
+    ...createProps(0, 650, 0.0625, "rem"),
   },
 
   height: {
-    ...createProps(0, 640, 0.0625, "rem"),
+    ...createProps(0, 650, 0.0625, "rem"),
   },
 
   maxWidth: {
-    ...createProps(0, 640, 0.0625, "rem"),
+    ...createProps(0, 650, 0.0625, "rem"),
   },
 
   minWidth: {
@@ -31,11 +31,11 @@ export const values = {
   },
 
   maxHeight: {
-    ...createProps(0, 640, 0.0625, "rem"),
+    ...createProps(0, 650, 0.0625, "rem"),
   },
 
   minHeight: {
-    ...createProps(0, 640, 0.0625, "rem"),
+    ...createProps(0, 650, 0.0625, "rem"),
   },
 
   fontSize: {

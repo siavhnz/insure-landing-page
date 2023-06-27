@@ -16,6 +16,12 @@ export default {
       },
       backgroundImage: {
         "mobile-nav": "url('/images/bg-pattern-mobile-nav.svg')",
+        "mobile-intor-left": "url('/images/bg-pattern-intro-left-mobile.svg')",
+        "desktop-intor-right":
+          "url('/images/bg-pattern-intro-right-desktop.svg')",
+      },
+      backgroundPosition: {
+        "left-top-57": "left top 57%",
       },
       fontFamily: {
         "dm-serif-display": ["'DM Serif Display'", "serif"],

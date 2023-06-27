@@ -1,4 +1,4 @@
-import MenuAction from "./MenuAction";
+import ActionLink from "../ui/ActionLink";
 import NavigationItem from "./NavigationItem";
 
 const Navigation = ({ items }) => {
@@ -8,7 +8,11 @@ const Navigation = ({ items }) => {
         {items.map((item) => {
           return <NavigationItem item={item} key={item} />;
         })}
-        <MenuAction />
+        <li className="md:ml-8">
+          <ActionLink size="small" theme="violet">
+            view plans
+          </ActionLink>
+        </li>
       </ul>
     </nav>
   );
