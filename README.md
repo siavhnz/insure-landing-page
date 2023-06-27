@@ -11,9 +11,6 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 - [My process](#my-process)
   - [Work time](#work-time)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -28,34 +25,33 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/?)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/insure-landing-page-aTmBkpzQ2b)
 
-- Live Site: [cloudflare](https://?.pages.dev/)
+- Live Site: [cloudflare](https://insure-landing-page-u3y.pages.dev/)
 
 ## My process
 
 - 1.Prepare project (Download assets, Install Vite & TailwindCss, Initialize git, README.md)
 - 2.Create Header(Logo, Menu)
+- 3.Create Hero
+- 4.Create Plans section
+- 5.Create FindOut and Footer components
+- 6.Work on background images & active states
+- 7.Write README.md, Push to github, Make it live on Cloudflare, Publish to frontendmentor
 
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/649b36eddb4345210da5f858)
 
 ### Built with
 
 - [React](https:react.dev)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://framer.com/motion)
-
-### What I learned
-
-### Continued development
-
-### Useful resources
 
 ## Author
 
