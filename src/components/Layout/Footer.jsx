@@ -8,7 +8,8 @@ import FooterMenu from "../Menu/FooterMenu";
 const Footer = () => {
   return (
     <footer className="mt-140 bg-light-gray lg:mt-148">
-      <div className="max-w-screen-2xl  bg-mobile-footer bg-contain bg-top bg-no-repeat py-88 md:bg-desktop-footer md:bg-[length:24rem] md:bg-left-top lg:bg-[length:33rem] 2xl:bg-[length:50rem] 2xl:bg-[top_-10rem_left] lg:pt-65 2xl:ml-auto 2xl:mr-auto">
+      {/* max-w-screen-2xl  2xl:ml-auto 2xl:mr-auto  2xl:bg-[length:50rem] 2xl:bg-[top_-10rem_left]*/}
+      <div className="bg-mobile-footer bg-contain bg-top bg-no-repeat py-88 md:bg-desktop-footer md:bg-[length:24rem] md:bg-left-top lg:bg-[length:33rem] lg:pt-65">
         <div className="max-w-screen-1.5lg 1.5lg:ml-auto 1.5lg:mr-auto">
           <div className="mx-24 flex flex-col items-center gap-y-32 border-b border-b-grayish-blue pb-40 md:flex-row md:justify-between lg:pb-30 xl:mx-0">
             <Logo />

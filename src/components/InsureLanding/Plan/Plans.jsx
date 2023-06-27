@@ -3,8 +3,8 @@ import PlanItem from "./PLanItem";
 
 const Plans = () => {
   return (
-    <section className="mt-141 flex max-w-screen-1.5lg flex-col md:px-24 1.5lg:ml-auto 1.5lg:mr-auto 1.5lg:mt-149 xl:px-0">
-      <div className="h-1 w-150 self-center bg-dark-violet 1.5lg:self-start" />
+    <section className="-mt-78 relative z-10 md:mt-141 flex max-w-screen-1.5lg flex-col md:px-24 1.5lg:ml-auto 1.5lg:mr-auto 1.5lg:mt-149 xl:px-0">
+      <div className="h-1 w-150 self-center bg-grayish-blue 1.5lg:self-start" />
       <h2 className="mt-39 text-center font-dm-serif-display text-46 leading-50 text-very-dark-violet 1.5lg:mt-55 1.5lg:text-left 1.5lg:text-70 1.5lg:leading-80">
         We’re different
       </h2>

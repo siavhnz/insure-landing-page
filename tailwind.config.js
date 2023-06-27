@@ -18,6 +18,8 @@ export default {
       backgroundImage: {
         "mobile-nav": "url('/images/bg-pattern-mobile-nav.svg')",
         "mobile-intor-left": "url('/images/bg-pattern-intro-left-mobile.svg')",
+        "mobile-intor-right":
+          "url('/images/bg-pattern-intro-right-mobile.svg')",
         "desktop-intor-right":
           "url('/images/bg-pattern-intro-right-desktop.svg')",
         "desktop-intor-left":

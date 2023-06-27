@@ -11,7 +11,7 @@ const MobileNavigation = ({ items, handleCloseMenu }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className="fixed bottom-0 left-0 right-0 top-0 flex flex-col md:hidden"
+      className="fixed bottom-0 left-0 right-0 top-0 z-50 flex flex-col md:hidden"
     >
       <div className="flex items-center justify-between bg-white p-24">
         <div className="pt-1">
@@ -26,7 +26,7 @@ const MobileNavigation = ({ items, handleCloseMenu }) => {
           {items.map((item) => {
             return <NavigationItem item={item} key={item} />;
           })}
-          <li className="-mt-9 w-full px-24">
+          <li className="-mt-9 w-full max-w-327 px-24">
             <ActionLink size="medium">view plans</ActionLink>
           </li>
         </ul>

@@ -526,6 +526,14 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -542,8 +550,76 @@ video {
   top: 0px;
 }
 
+.top-4 {
+  top: 1rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-72 {
+  top: 18rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.top-\[30rem\] {
+  top: 30rem;
+}
+
+.top-\[40rem\] {
+  top: 40rem;
+}
+
+.top-\[60rem\] {
+  top: 60rem;
+}
+
+.top-\[55rem\] {
+  top: 55rem;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
+.top-9 {
+  top: 2.25rem;
+}
+
+.top-\[22rem\] {
+  top: 22rem;
+}
+
+.top-\[25rem\] {
+  top: 25rem;
+}
+
+.top-\[26rem\] {
+  top: 26rem;
+}
+
+.top-\[26\.5rem\] {
+  top: 26.5rem;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-24 {
@@ -599,8 +675,56 @@ video {
   margin-top: 5rem;
 }
 
+.mt-40 {
+  margin-top: 2.5rem;
+}
+
+.mt-0 {
+  margin-top: 0rem;
+}
+
+.-mt-40 {
+  margin-top: -2.5rem;
+}
+
+.-mt-20 {
+  margin-top: -1.25rem;
+}
+
+.-mt-15 {
+  margin-top: -0.9375rem;
+}
+
+.-mt-25 {
+  margin-top: -1.5625rem;
+}
+
+.-mt-35 {
+  margin-top: -2.1875rem;
+}
+
+.-mt-45 {
+  margin-top: -2.8125rem;
+}
+
+.-mt-55 {
+  margin-top: -3.4375rem;
+}
+
+.-mt-75 {
+  margin-top: -4.6875rem;
+}
+
+.-mt-78 {
+  margin-top: -4.875rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -623,6 +747,46 @@ video {
   height: 5.375rem;
 }
 
+.h-200 {
+  height: 12.5rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-400 {
+  height: 25rem;
+}
+
+.h-120 {
+  height: 7.5rem;
+}
+
+.h-210 {
+  height: 13.125rem;
+}
+
+.h-220 {
+  height: 13.75rem;
+}
+
+.h-300 {
+  height: 18.75rem;
+}
+
+.h-450 {
+  height: 28.125rem;
+}
+
+.h-500 {
+  height: 31.25rem;
+}
+
+.max-h-120 {
+  max-height: 7.5rem;
+}
+
 .w-150 {
   width: 9.375rem;
 }
@@ -639,6 +803,14 @@ video {
   width: 100vw;
 }
 
+.w-200 {
+  width: 12.5rem;
+}
+
+.w-300 {
+  width: 18.75rem;
+}
+
 .max-w-screen-1\.5lg {
   max-width: 1112px;
 }
@@ -647,8 +819,36 @@ video {
   max-width: 1536px;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-327 {
+  max-width: 20.4375rem;
+}
+
 .flex-grow {
   flex-grow: 1;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-\[2\] {
+  grid-template-rows: 2;
+}
+
+.grid-rows-\[auto\] {
+  grid-template-rows: auto;
+}
+
+.grid-rows-\[auto_auto\] {
+  grid-template-rows: auto auto;
 }
 
 .flex-col {
@@ -753,6 +953,27 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[top-\] {
+  background-color: top-;
+}
+
+.bg-\[top__right\] {
+  background-color: top  right;
+}
+
+.bg-grayish-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(216 30% 68% / var(--tw-bg-opacity));
+}
+
+.bg-\[top_2rem_\] {
+  background-color: top 2rem;
+}
+
+.bg-\[left_top_\] {
+  background-color: left top;
+}
+
 .bg-mobile-footer {
   background-image: url('/images/bg-pattern-footer-mobile.svg');
 }
@@ -769,8 +990,20 @@ video {
   background-image: url('/images/bg-pattern-mobile-nav.svg');
 }
 
+.bg-mobile-intor-right {
+  background-image: url('/images/bg-pattern-intro-right-mobile.svg');
+}
+
+.bg-desktop-intor-left {
+  background-image: url('/images/bg-pattern-intro-left-desktop.svg');
+}
+
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-bottom {
@@ -785,12 +1018,84 @@ video {
   background-position: top;
 }
 
+.bg-\[top\] {
+  background-position: top;
+}
+
+.bg-\[top_20rem\] {
+  background-position: top 20rem;
+}
+
+.bg-\[top_20rem_left\] {
+  background-position: top 20rem left;
+}
+
+.bg-\[top_20rem_right\] {
+  background-position: top 20rem right;
+}
+
+.bg-\[top_right\] {
+  background-position: top right;
+}
+
+.bg-right-top {
+  background-position: right top;
+}
+
+.bg-\[top_2rem\] {
+  background-position: top 2rem;
+}
+
+.bg-\[top_2rem_right\] {
+  background-position: top 2rem right;
+}
+
+.bg-\[top_1rem_right\] {
+  background-position: top 1rem right;
+}
+
+.bg-\[top_1rem_right_-1rem\] {
+  background-position: top 1rem right -1rem;
+}
+
+.bg-\[top_1rem_right_-0\.5rem\] {
+  background-position: top 1rem right -0.5rem;
+}
+
+.bg-\[top_1rem_right_-0\.25rem\] {
+  background-position: top 1rem right -0.25rem;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-\[left\] {
+  background-position: left;
+}
+
+.bg-\[left_top\] {
+  background-position: left top;
+}
+
+.bg-\[left_top_5rem\] {
+  background-position: left top 5rem;
+}
+
+.bg-\[left_top_15rem\] {
+  background-position: left top 15rem;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
 
 .p-24 {
   padding: 1.5rem;
+}
+
+.p-92 {
+  padding: 5.75rem;
 }
 
 .px-24 {
@@ -836,6 +1141,22 @@ video {
 
 .pt-46 {
   padding-top: 2.875rem;
+}
+
+.pt-92 {
+  padding-top: 5.75rem;
+}
+
+.pb-92 {
+  padding-bottom: 5.75rem;
+}
+
+.pb-52 {
+  padding-bottom: 3.25rem;
+}
+
+.pb-32 {
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -968,6 +1289,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:z-10 {
+    z-index: 10;
+  }
+
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -1022,6 +1347,14 @@ video {
 
   .md\:mt-0 {
     margin-top: 0rem;
+  }
+
+  .md\:mt-141 {
+    margin-top: 8.8125rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
@@ -1164,6 +1497,10 @@ video {
 
   .lg\:mt-49 {
     margin-top: 3.0625rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:grid-cols-4 {
@@ -1365,20 +1702,8 @@ video {
     margin-right: auto;
   }
 
-  .\32xl\:bg-\[\] {
-    background-color: ;
-  }
-
-  .\32xl\:bg-\[top_\] {
-    background-color: top;
-  }
-
-  .\32xl\:bg-\[top_-\] {
-    background-color: top -;
-  }
-
-  .\32xl\:bg-\[length\:33rem\] {
-    background-size: 33rem;
+  .\32xl\:hidden {
+    display: none;
   }
 
   .\32xl\:bg-\[length\:50rem\] {
@@ -1387,18 +1712,6 @@ video {
 
   .\32xl\:bg-\[left_36\%_top_-6\.25rem\] {
     background-position: left 36% top -6.25rem;
-  }
-
-  .\32xl\:bg-\[top\] {
-    background-position: top;
-  }
-
-  .\32xl\:bg-\[top_-2rem\] {
-    background-position: top -2rem;
-  }
-
-  .\32xl\:bg-\[top_-2rem_left\] {
-    background-position: top -2rem left;
   }
 
   .\32xl\:bg-\[top_-10rem_left\] {
